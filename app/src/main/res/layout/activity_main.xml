@@ -1,0 +1,2221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context="devsbox.jihanislam007.mayercommunication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.3"
+        android:background="@drawable/navbar"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.7"
+        android:padding="8dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="35"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_view_order_first"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:elevation="3dp"
+                        app:cardBackgroundColor="@color/colorGreen"
+                        app:cardElevation="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ractangle_border"
+                            android:weightSum="3">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="প্রধান কর্মকর্তা"
+                                    android:textSize="24sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorGreen"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1">
+
+                                <Button
+                                    android:id="@+id/sendAll"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="সকলকে বার্তা দিন"
+                                    android:background="@color/colorRed"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="24sp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <ImageView
+                            android:id="@+id/one"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/two"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <ImageView
+                            android:id="@+id/two"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/three"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <ImageView
+                            android:id="@+id/three"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/four"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <ImageView
+                            android:id="@+id/four"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/five"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <ImageView
+                            android:id="@+id/five"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/six"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <ImageView
+                            android:id="@+id/six"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/seven"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <ImageView
+                            android:id="@+id/seven"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/fourteen"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <ImageView
+                            android:id="@+id/eight"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/fifteen"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <ImageView
+                            android:id="@+id/nine"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/seventeen"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <ImageView
+                            android:id="@+id/ten"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/eighteen"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <ImageView
+                            android:id="@+id/eleven"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/twenty"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <ImageView
+                            android:id="@+id/twelve"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/twentyone"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!--///////////////////-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_view_order_second"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:elevation="3dp"
+                        app:cardBackgroundColor="@color/colorGreen"
+                        app:cardElevation="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ractangle_border"
+                            android:weightSum="3">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ওয়ার্ড কাউন্সিলর"
+                                    android:textSize="24sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorGreen"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1">
+
+                                <Button
+                                    android:id="@+id/sendAll_ward"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="সকলকে বার্তা দিন"
+                                    android:background="@color/colorRed"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="24sp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/w_one"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/w_two"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ২"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/w_three"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <!--<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>-->
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                       <!-- <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ২"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>-->
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <!--<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>-->
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!--<LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>-->
+
+                <!--///////////////////-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_view_order"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:elevation="3dp"
+                        app:cardBackgroundColor="@color/colorGreen"
+                        app:cardElevation="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ractangle_border"
+                            android:weightSum="3">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="সংরক্ষিত ওয়ার্ড কাউন্সিলর"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorGreen"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1">
+
+                                <Button
+                                    android:id="@+id/sendAll_s_ward"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="সকলকে বার্তা দিন"
+                                    android:background="@color/colorRed"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="24sp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/s_w_one"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/s_ward_two"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ২"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/s_ward_three"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <!--<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>-->
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <!-- <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>-->
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <!--<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>-->
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!--<LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash; <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        &lt;!&ndash;<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ৩"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>&ndash;&gt;
+
+                    </LinearLayout>
+
+                </LinearLayout>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.5"
+                    android:weightSum="3"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <!--<TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>-->
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <!-- <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="ওয়ার্ড নং ২"
+                             android:textStyle="bold"
+                             android:textColor="@android:color/black"
+                             android:textSize="24sp"
+                             android:gravity="center"/>-->
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/ractangle_border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ওয়ার্ড নং ১৯"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/black">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="র\u200C্যাপিড পিআর"
+                android:gravity="center"
+                android:textSize="32sp"
+                android:textColor="@color/colorYellow"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/click"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
